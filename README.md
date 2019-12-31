@@ -40,3 +40,40 @@
    <img src="./project_img/33.JPG" /><br>
    <img src="./project_img/44.JPG" /><br>
    <img src="./project_img/55.JPG" />
+
+<hr>
+
+#### 참고자료
+
+**origin source**
+
+         - https://techwithtim.net/tutorials/python-online-game-tutorial/client/
+
+**socket**
+
+    1. 바인딩
+         - https://vinetomcat.tistory.com/entry/binding%EC%9D%B4%EB%9E%80
+    2. 기본연결
+         - https://soooprmx.com/archives/8737
+         - https://docs.python.org/3/library/socket.html
+
+**pygame**
+
+    - https://kkamikoon.tistory.com/129
+    - https://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220713309790&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+    - https://studioplug.tistory.com/194
+    - https://futurestorys.tistory.com/102
+    - https://yoonkh.github.io/python/2017/12/10/brain7.html
+
+**_thread**
+
+    - https://bloodguy.tistory.com/entry/thread-%EC%82%AC%EC%9A%A9%EB%B2%95
+
+**tkinter**
+
+    - https://m.blog.naver.com/PostView.nhn?blogId=infoefficien&logNo=221057243324&proxyReferer=https%3A%2F%2Fwww.google.com%2F 
+    - http://blog.naver.com/PostView.nhn?blogId=audiendo&logNo=220791080634&categoryNo=27&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+    - https://076923.github.io/posts/Python-tkinter-6/
+
+
+
