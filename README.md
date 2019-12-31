@@ -47,7 +47,7 @@
 
 **origin source**
 
-         - https://techwithtim.net/tutorials/python-online-game-tutorial/client/
+    - https://techwithtim.net/tutorials/python-online-game-tutorial/client/
 
 **socket**
 
