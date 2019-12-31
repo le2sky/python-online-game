@@ -4,3 +4,24 @@
 
 
 **This project is a remote rock-paper-scissors game using Python socket programming.**
+
+####  dev environment & Stack(Including modules, packages, and libraries)
+| Purpose | Name | Remarks |
+|:---:|:---:|:---:|
+|Interpreter | Python3 | 3.6|
+| GUI | `tkinter`<br>`pygame` | - 정적UI<br>- 음악,배경,사용자이벤트 |
+|DataBase|sqlite3|데이터베이스|
+|통신|`pickle`<br>`socket`| - 직렬화 및 역직렬화<br>- 소켓통신
+|기타|`datetime`| 현 표준 시간 받아오기
+|개발환경| PyCharm | IDE
+|멀티쓰레드|`_thread`| row level thread
+
+<hr>
+
+#### executable file
+
+
+| fileName |  |
+|------------|----------|
+| `server.py` | <ul><li>서버 ip 설정</li><li>게임 승리 점수 설정</li><li>플레이어1, 플레이어2 이름 설정</li><li>플레이어1, 플레이어2 캐릭터 설정</li><li>배경음악 설정</li><li>버전 정보 확인</li><li>리더보드(게임 기록) 저장 및 조회</li><li>설정한 정보를 각 클라이언트에게 전달</li><li>각 클라이언트의 게임 내 정보를 연결하기 위해 클라이언트와 데이터 수신 및 송신</li><li>객체 단위로 통신하기 위해 직렬화 및 역직렬화 구현</li></ul> |
+| `client.py` | <ul><li>서버 ip 입력하여 서버에 접속</li><li>상대방이 접속할 때까지 대기</li><li>서버로부터 생성된 게임에 대한 정보를 소켓을 통해 받아옴</li><li>가위바위보UI 렌더링 및 게임진행</li><li>설정된 라운드 수 만큼 게임을 진행하고, 승자의 정보를 소켓을 통해 서버로 넘	  기고 5초후에 종료된다.</li></ul> | 
