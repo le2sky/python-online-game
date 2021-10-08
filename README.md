@@ -1,4 +1,4 @@
-# Python_Online-rock-paper-scissors
+# Python Online 'rock-paper-scissors' game
 
 **This project is a remote rock-paper-scissors game using Python socket programming.**
 
